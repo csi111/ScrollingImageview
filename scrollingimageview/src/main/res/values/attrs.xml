@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollingImageView">
+        <attr name="src" format="reference"/>
+        <attr name="slideType" format="enum">
+            <enum name="LeftToRight" value="0"/>
+            <enum name="RightToLeft" value="1"/>
+        </attr>
+        <attr name="speed" format="float"/>
+        <attr name="initialState" format="enum">
+            <enum name="started" value="0"/>
+            <enum name="stopped" value="1"/>
+        </attr>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+</resources>
